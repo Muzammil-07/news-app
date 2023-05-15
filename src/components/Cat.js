@@ -33,7 +33,7 @@ useEffect(()=>{
             const res = await fetch(`https://newsdata2.p.rapidapi.com/news?language=en&country=${code}`,{
                 method:"GET",
                 headers:{
-                    'X-RapidAPI-Key': API_KEY,
+                    'X-RapidAPI-Key':"f3208d7d84msh118e009303f27ccp1a66eajsnf69e6bb0403e",
                     'X-RapidAPI-Host': 'newsdata2.p.rapidapi.com'
                 }
                 
